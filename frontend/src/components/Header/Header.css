@@ -1,0 +1,48 @@
+.header{
+    height: 34vw;
+    margin: 10px auto;
+    background: url('header_img.png') no-repeat;
+    background-size: contain;
+    position: relative;
+    border-radius: 20px;
+    
+}
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    left: 35%;
+    color: white;
+    top: 10%;
+    animation: fadeIN 3s;
+
+
+}
+.header-contents h2{
+    font-weight: 600;
+    color: white;
+    font-size: max(2.5vw,22px);
+    margin: 30px auto;
+}
+.header-contents p{
+    color: white;
+    font-size: 1.2vw;
+}
+.search-bar {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+    margin: 90px auto;
+
+  }
+  
+  .search-bar:focus {
+    border-color: #007bff;
+  }

@@ -1,0 +1,50 @@
+/* Jaipur.css */
+.jaipur-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .places-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .place-card {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .place-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .place-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .place-info {
+    padding: 15px;
+  }
+  
+  .place-info h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .place-info p {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .place-rating {
+    font-weight: bold;
+    color: #ff9800;
+  }
+  
